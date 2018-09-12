@@ -1,0 +1,13 @@
+<html>
+  <head>
+    {% if title %}
+    <title> {{ title }} is the replaced title </title>
+    {% else %}
+    <title>Welcome to the flask repo</title>
+    {% endif %}
+  </head>
+  <body>
+    <h1>Hello, {{ user.username }}</h1>
+  </body>
+</html>
+
